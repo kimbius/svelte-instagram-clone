@@ -100,9 +100,9 @@
                         </button>
                     </div>
                 </div>
-                <div class="relative h-full">
+                <div class="relative h-[calc(100%-61px)] ">
                     <div
-                        class="bg-white absolute bottom-0 left-1/2 -translate-x-1/2 rounded-full border py-3 px-5 flex justify-between items-center w-full"
+                        class="bg-white absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full border py-3 px-5 flex justify-between items-center w-full"
                     >
                         <div class="flex items-center gap-4">
                             <svg

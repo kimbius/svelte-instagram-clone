@@ -3,7 +3,7 @@
 
     import MainNavbar from "../components/MainNavbar.svelte";
 
-    export const prerender = true
+    export const ssr = false;
 </script>
 
 <MainNavbar />

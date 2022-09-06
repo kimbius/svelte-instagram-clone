@@ -2,6 +2,8 @@
     import "../app.css";
 
     import MainNavbar from "../components/MainNavbar.svelte";
+
+    export const prerender = true
 </script>
 
 <MainNavbar />

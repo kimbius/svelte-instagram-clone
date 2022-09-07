@@ -74,7 +74,7 @@
                     </div>
                 </div>
             {:else}
-                <div class="hidden md:block col-span-10">
+                <div class="col-span-10">
                     <div class="border-b px-4 py-3">
                         <div class="flex justify-between">
                             <div class="flex gap-3 items-center">

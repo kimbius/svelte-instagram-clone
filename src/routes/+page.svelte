@@ -7,7 +7,7 @@
 <div class="container my-5">
     <div class="grid grid-cols-10 gap-3">
         <div class="md:col-span-7 col-span-10">
-            <div class="flex flex-col gap-5">
+            <div class="flex flex-col gap-2">
                 <FriendsActivity />
                 <PostsFeed />
             </div>

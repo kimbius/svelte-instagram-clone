@@ -1,5 +1,5 @@
-<div class="bg-white border rounded-lg p-5 overflow-hidden flex gap-6">
-    {#each Array(3) as _, i}
+<div class="bg-white border rounded-lg p-5 overflow-x-auto flex gap-6">
+    {#each Array(6) as _, i}
         <div class="flex flex-col items-center gap-2">
             <div
                 class="relative rounded-full h-[65px] w-[65px] bg-gradient-to-tr from-yellow-400 via-red-600 to-purple-700"

@@ -6,13 +6,13 @@
 
 <div class="container my-5">
     <div class="grid grid-cols-10 gap-3">
-        <div class="col-span-6">
+        <div class="md:col-span-7 col-span-10">
             <div class="flex flex-col gap-5">
                 <FriendsActivity />
                 <PostsFeed />
             </div>
         </div>
-        <div class="col-span-4">
+        <div class="hidden md:block col-span-3">
             <RightSideUser />
         </div>
     </div>

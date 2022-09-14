@@ -16,10 +16,30 @@
         },
         {
             isSender: false,
-            content: "Lorem ipsum dolor sit amet.",
+            content: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
         },
         {
             isSender: false,
+            content: "Lorem ipsum dolor sit amet.",
+        },
+        {
+            isSender: true,
+            content: "Lorem ipsum dolor sit amet.",
+        },
+        {
+            isSender: true,
+            content: "Lorem ipsum dolor sit amet.",
+        },
+        {
+            isSender: true,
+            content: "Lorem ipsum dolor sit amet.",
+        },
+        {
+            isSender: true,
+            content: "Lorem ipsum dolor sit amet.",
+        },
+        {
+            isSender: true,
             content: "Lorem ipsum dolor sit amet.",
         },
         {
@@ -156,7 +176,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="relative h-[50vh]">
+                    <div class="relative h-[50vh] overflow-y-auto">
                         <div class="flex flex-col gap-3 p-5">
                             {#each chat_items as Item}
                                 <div
@@ -167,7 +187,7 @@
                                         class="relative h-[35px] w-[35px] bg-gray-200 rounded-full"
                                     />
                                     <div
-                                        class="p-2 px-3 text-base rounded-full ring-1 ring-gray-200"
+                                        class="max-w-xs p-2 px-3 text-base rounded-2xl ring-1 ring-gray-200"
                                     >
                                         <p>{Item.content}</p>
                                     </div>

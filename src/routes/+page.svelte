@@ -6,8 +6,8 @@
 
 <div class="container my-5">
     <div class="grid grid-cols-10 gap-3">
-        <div class="md:col-span-7 col-span-10">
-            <div class="flex flex-col gap-2">
+        <div class="flex justify-end md:col-span-7 col-span-10">
+            <div class="flex flex-col gap-2 w-full md:max-w-[500px]">
                 <FriendsActivity />
                 <PostsFeed />
             </div>

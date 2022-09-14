@@ -4,7 +4,7 @@
 
 <nav class="h-[60px] border-b-[1px] p-3 bg-white">
     <div
-        class="container grid grid-cols-3 justify-between items-center h-full w-full"
+        class="container grid grid-cols-2 md:grid-cols-3 justify-between items-center h-full w-full"
     >
         <div>
             <a href="/">
@@ -12,7 +12,7 @@
 
             </a>
         </div>
-        <div>
+        <div class="md:block hidden">
             <input
                 type="text"
                 placeholder="ค้นหา"
